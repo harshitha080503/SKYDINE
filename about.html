@@ -1,0 +1,177 @@
+
+<html>
+    <head>
+      <h1>
+        <title> Resto
+        </title>
+        <link rel="stylesheet" type="text/css" href="skydine.css">
+      </h1>
+      </head>
+
+
+<body>
+
+<ul>
+
+        <li><a class="active" href="resto.html">Home</a></li>
+        <li><a href="menu.html">Menu</a>  
+        <li><a href="contact.html">contact</a>
+        <li><a href="about.html">About</a>
+        </li>
+    </li>
+</ul>
+
+<div>
+  <h1><b><center>About Us</center></b></h1>
+</div>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family:"Lucida Handwriting";}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: whitesmoke;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+body {
+  background-color:lemonchiffon;
+  color:black;
+}
+</style>
+</head>
+<body>
+
+<!--<h2>Automatic Slideshow</h2>
+<p>Change image every 2 seconds:</p>-->
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="https://s3.amazonaws.com/restodinning.com/skydinning/slide1.webp" style="width:100%">
+  <div class="text">1</div>webp
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="https://s3.amazonaws.com/restodinning.com/skydinning/slide2.webp" style="width:100%">
+  <div class="text">2</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="https://s3.amazonaws.com/restodinning.com/skydinning/slide3.jpg" style="width:100%">
+  <div class="text">3</div>
+</div>
+<div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="https://s3.amazonaws.com/restodinning.com/skydinning/slide4.jpg" style="width:100%">
+    <div class="text">4</div>
+  </div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>  
+    
+    
+   <html>
+        <div>
+        <p style="text-align: center">Hi-tech City is the business centre of the city and one would assume it to be monotonous and a corporate-jungle but in reality, it’s far from that, thanks to Cloud Dining!
+            Let’s start with Sky Dining itself, a one-of-its-kind unique experience where the guests are hoisted 160 feet above the ground and can enjoy a 3 or 5-course multi-cuisine menu! How exciting is that?
+            Then comes The Cloud Dining, a quaint restaurant with an elaborate continental menu and the perfect vibe for a relaxed lunch or dinner!, perfect for intimate celebrations or to spend time with loved ones! with an exclusive menu, perfect for large dinner parties or celebrations!
+            We’ve a restaurant perfect for people of all ages! So Hyderabad, take your pick!</p>
+        
+        <h1><b><center>Opening hours</center></b></h1>
+        <center><p>Monday CLOSED</p>
+        <p>TUesday TO Saturday 7:00-11:00</p>
+        <p>Sunday 6:30-11:30</p></center>
+        
+        
+    </body>
+</html>

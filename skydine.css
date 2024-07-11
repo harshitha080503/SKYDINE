@@ -1,0 +1,31 @@
+
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:darkgoldenrod
+}
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lucida Handwriting"}
+
+li 
+{
+  float: left;
+}
+
+li a 
+{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  
+  text-decoration: none;
+}
+
+li a:hover
+ {
+  background-color:whitesmoke;
+}
